@@ -1,0 +1,20 @@
+.selected-card {
+  background-color: #b7e4c7;
+  transform: scale(1.02);
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card:hover, .selected-card:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.continue-button {
+  margin-top: 1rem;
+  max-width: 50%;
+  height: 3rem;
+}
